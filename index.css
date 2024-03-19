@@ -1,0 +1,75 @@
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #CCE8CC;
+}
+
+.square {
+    position: absolute;
+    background-color: #CCE8CC;
+}
+
+#colorChoices {
+    display: inline-block;
+}
+
+#colorChoices div, button {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#green {
+    background-color: green;
+    border: 1px solid black;
+    height: 20px;
+    width: 100px;
+}
+#blue {
+    background-color: blue;
+    border: 1px solid black;
+    height: 20px;
+    width: 100px;
+}
+#red {
+    background-color: red;
+    border: 1px solid black;
+    height: 20px;
+    width: 100px;
+}
+
+#reset {
+    vertical-align: top;
+    position: relative;
+    left: 700px;
+    background-color: #cf2a27;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: 3px 3px #200606;
+    color: white;
+}
+
+#shapeChoices {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.shapeChoice {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Define specific styles for each shape */
+#circle {
+    border-radius: 50%;
+}
+
+#square {
+    border-radius: 0%;
+}
+ 
